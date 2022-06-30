@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --blue: #173D87;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #35424B;
+}
+
+@media screen and (max-width: 1300px) {
+    header{
+       padding: 1em;
+    }
+    
+    #nav-gs{
+        display:none;
+    }
+
+    main{
+        margin:20px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    main h1{
+        font-weight: 400;
+        font-size: 25px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    main p{
+        font-size: 15px;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+    main button{
+        background-color: var(--blue);
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        border: none;
+        border-radius: 20px;
+ 
+    }
+    
+    main img {
+        width: 70%;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .process{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .process img{
+        width: 100%;
+        padding: 50px 0;
+    }
+
+   .process span{
+    font-weight: 500;
+    color: #0b0d0f;
+    display: block;
+    margin-bottom: 10px;
+   }
+
+    .process h1 {
+        font-weight: 400;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+     section  .head{
+        padding-bottom: 50px;
+
+    }
+
+    .process p{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .process button{
+        background-color: var(--blue);
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .testimonials {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+ 
+
+    .show{
+        display: block;
+    }
+
+
+
+    .avatar {
+        display:block;
+        margin: 30px auto;
+        text-transform: center;
+        width: 25%; 
+        border-radius: 200px;  
+    }
+    .logo{
+        width: 30%;
+        padding-bottom: 30px;
+    }
+    .testimonials p{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .testimonials h2{
+        font-size:15px;
+        padding-bottom: 1em;
+    }
+
+
+}
